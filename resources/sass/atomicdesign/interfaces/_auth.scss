@@ -1,0 +1,56 @@
+.interface-auth {
+  overflow: hidden;
+
+  .interface__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary;
+  }
+
+  .interface__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .interface__header {
+      min-height: 25vh;
+
+      .logo {
+        width: 160px;
+      }
+    }
+
+    .interface__body {
+      .inner {
+        padding: 2rem 1rem;
+        min-width: $akk-unit * 5;
+        width: 50%;
+        max-width: $akk-unit * 7;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    @include display-grid();
+    @include grid-template-columns(50% 50%);
+
+    .interface__header {
+      @include grid-column(1);
+
+      .logo {
+        width: 240px;
+      }
+    }
+
+    .interface__body {
+      @include grid-column(2);
+
+      .inner {
+        width: $akk-unit * 6;
+      }
+    }
+  }
+}

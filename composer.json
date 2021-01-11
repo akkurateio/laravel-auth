@@ -1,0 +1,87 @@
+{
+    "name": "akkurate/laravel-auth",
+    "description": "Auth logic for Akkurate Ecosystem",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Akkurate",
+            "email": "hello@subvitamine.com",
+            "homepage": "https://www.akkurate.io",
+            "role": "Company"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/akkurateio/documentation"
+    },
+    "require": {
+        "akkurate/laravel-core": "^2.0",
+        "akkurate/laravel-back-components": "^2.0",
+        "laravel/passport": "^10.0",
+        "laravel/ui": "^2.0|^3.0",
+        "thomaswelton/laravel-gravatar": "^1.2",
+        "spatie/laravel-web-tinker": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.0",
+        "doctrine/dbal": "^3.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Akkurate\\LaravelAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Akkurate\\LaravelAuth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Akkurate\\LaravelAuth\\LaravelAuthServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-media.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-contact.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-business.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-access.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-search.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-carbon-icons.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-back-components.git"
+        }
+    ]
+}
