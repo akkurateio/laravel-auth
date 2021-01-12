@@ -2,6 +2,7 @@
     "name": "akkurateio/laravel-auth",
     "description": "Auth logic for Akkurate Ecosystem",
     "type": "library",
+    "license": "AGPL-3.0-only",
     "authors": [
         {
             "name": "Akkurate",
