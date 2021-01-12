@@ -1,5 +1,5 @@
 {
-    "name": "akkurate/laravel-auth",
+    "name": "akkurateio/laravel-auth",
     "description": "Auth logic for Akkurate Ecosystem",
     "type": "library",
     "authors": [
@@ -14,8 +14,8 @@
         "docs": "https://github.com/akkurateio/documentation"
     },
     "require": {
-        "akkurate/laravel-core": "^2.0",
-        "akkurate/laravel-back-components": "^2.0",
+        "akkurateio/laravel-core": "^0.1",
+        "akkurateio/laravel-back-components": "^0.1",
         "laravel/passport": "^10.0",
         "laravel/ui": "^2.0|^3.0",
         "thomaswelton/laravel-gravatar": "^1.2",
@@ -45,43 +45,5 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-media.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-contact.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-business.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-access.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-core.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-search.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-carbon-icons.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:subvitaminetm/laravel-back-components.git"
-        }
-    ]
+    }
 }
