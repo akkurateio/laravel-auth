@@ -17,12 +17,11 @@
         "docs": "https://github.com/akkurateio/documentation"
     },
     "require": {
-        "akkurateio/laravel-core": "^0.1",
-        "akkurateio/laravel-back-components": "^0.1",
+        "akkurateio/laravel-core": "0.x-dev",
+        "akkurateio/laravel-back-components": "0.x-dev",
         "laravel/passport": "^10.0",
         "laravel/ui": "^2.0|^3.0",
-        "thomaswelton/laravel-gravatar": "^1.2",
-        "spatie/laravel-web-tinker": "^1.7"
+        "thomaswelton/laravel-gravatar": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
