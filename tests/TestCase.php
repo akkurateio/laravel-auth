@@ -80,10 +80,10 @@ class TestCase extends OrchestraTestCase
             $table->timestamps();
         });
 
-        $this->loadMigrationsFrom(__DIR__ . '/../vendor/akkurate/laravel-core/database/laravel-access/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../vendor/akkurateio/laravel-core/database/laravel-access/migrations');
         $this->seed(\Akkurate\LaravelCore\Database\Seeders\Access\DatabaseSeeder::class);
 
-        $this->loadMigrationsFrom(__DIR__ . '/../vendor/akkurate/laravel-core/database/laravel-admin/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../vendor/akkurateio/laravel-core/database/laravel-admin/migrations');
         $this->seed(\Akkurate\LaravelCore\Database\Seeders\Admin\LanguagesTableSeeder::class);
         $this->seed(\Akkurate\LaravelCore\Database\Seeders\Admin\CountriesTableSeeder::class);
     }
